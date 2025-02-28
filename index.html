@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+
+        <div class="container">
+            <div class="col-12 p-2">
+                <p>
+                    <i class="bi bi-info-circle-fill"></i> Simply type/paste in to the Basic Text field and watch your text transform in to MoCkInG tExT. Then press copy and send it to someone you want to mock.
+                </p>
+            </div>
+          <div class="col-12 p-2">
+            <p><label for="input_txt">Basic Text:</label></p>
+            <input type="text" class="form-control form-control-lg" id="input_txt" />
+          </div>
+          <div class="col-12 p-2">
+            <p><label for="output_txt">Mocking Text:</label></p>
+            <input type="text" id="output_txt" class="form-control form-control-lg" readonly />
+          </div>
+          <div class="col-12 p-2 text-end">
+            <button id="copy_btn" class="btn btn-info copy-btn btn-lg"><i class="bi bi-clipboard"></i> Copy Text</button>
+            <button id="clear_btn" class="btn btn-danger copy-btn btn-lg"><i class="bi bi-exclamation-circle-fill"></i> Clear Text</button>
+          </div>
+        </div>
+      </body>
+</body>
+<script src="js/script.js"></script>
+</html>
